@@ -1,1 +1,6 @@
-leet code problems with solutions and the time complexity of each problem
+# LeetCode Solutions 🧠
+Solutions to LeetCode problems in C
+Organized by topic
+
+## Topics
+- Arrays
