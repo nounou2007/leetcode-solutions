@@ -1,4 +1,4 @@
-// this is not in leet code
+// this is not needed in leet code
 // typedef struct ListNode
 //{
 //    int val;
