@@ -1,28 +1,62 @@
-# LeetCode Solutions 🧠
-Solutions to LeetCode problems in C, organized by topic.
+# 🧠 LeetCode Problem Tracker
 
-## Arrays
-| Problem | Difficulty | Pattern |
-|---------|------------|---------|
-| [Two Sum](./two-sum/) | 🟢 Easy | Hash Map |
-| [Best Time to Buy and Sell Stock](./best-time-to-buy-and-sell-stock/) | 🟢 Easy | Sliding Window |
-| [Contains Duplicate](./contains-duplicate/) | 🟢 Easy | Hash Set |
-| [Missing Number](./missing-number/) | 🟢 Easy | Math |
-| [Max Consecutive Ones](./max-consecutive-ones/) | 🟢 Easy | Sliding Window |
-| [Move Zeros](./move-zeros/) | 🟢 Easy | Two Pointers |
-| [Remove Duplicates from Sorted Array](./remove-duplicates-from-sorted-array/) | 🟢 Easy | Two Pointers |
-| [Majority Element](./majority-element/) | 🟢 Easy | Boyer-Moore Voting |
-| [Find All Disappeared Numbers](./find-all-disappeared-numbers/) | 🟢 Easy | Seen Array |
-| [Maximum Subarray](./maximum-subarray/) | 🟡 Medium | Kadane's Algorithm |
-| [Maximum Product Subarray](./maximum-product-subarray/) | 🟡 Medium | Kadane's Variant |
-| [Container With Most Water](./container-with-most-water/) | 🟡 Medium | Two Pointers |
-| [Sort Colors](./colors-sort/) | 🟡 Medium | Two Pointers |
-| [Subarray Sum Equals K](./subarray-sum-equals-k/) | 🟡 Medium | Prefix Sum |
-| [Product of Array Except Self](./product-of-array-except-self/) | 🟡 Medium | Prefix Sum |
-| [Rotate Array](./rotate-array/) | 🟡 Medium | Reversal |
-| [Longest Consecutive Sequence](./longest-consecutive-sequence/) | 🟡 Medium | Hash Set |
-| [3Sum](./3sum/) | 🟡 Medium | Two Pointers |
+Solved in **C** — organized by topic and difficulty.
 
-## Coming Soon
-- Linked Lists
-- Hash Maps
+---
+
+## 📊 Progress
+
+| # | Problem | Difficulty | Pattern |
+|---|---------|------------|---------|
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Map |
+| 2 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Hash Set |
+| 3 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math |
+| 4 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | Sliding Window |
+| 5 | [Move Zeros](https://leetcode.com/problems/move-zeroes/) | 🟢 Easy | Two Pointers |
+| 6 | [Remove Duplicates from Sorted Array](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | 🟢 Easy | Two Pointers |
+| 7 | [Majority Element](https://leetcode.com/problems/majority-element/) | 🟢 Easy | Boyer-Moore Voting |
+| 8 | [Find All Numbers Disappeared in an Array](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | 🟢 Easy | Sorting + Two Pointer |
+| 9 | [Third Maximum Number](https://leetcode.com/problems/third-maximum-number/) | 🟢 Easy | Sorting |
+| 10 | [Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/) | 🟢 Easy | Sorting |
+| 11 | [Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 🟢 Easy | Prefix Sum |
+| 12 | [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | 🟢 Easy | Sliding Window |
+| 13 | [Best Time to Buy and Sell Stock II](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | 🟢 Easy | Greedy |
+| 14 | [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 🟢 Easy | Linked List |
+| 15 | [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | 🟡 Medium | Kadane's Algorithm |
+| 16 | [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) | 🟡 Medium | Kadane's Variant |
+| 17 | [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) | 🟡 Medium | Two Pointers |
+| 18 | [Sort Colors](https://leetcode.com/problems/sort-colors/) | 🟡 Medium | Two Pointers |
+| 19 | [Subarray Sum Equals K](https://leetcode.com/problems/subarray-sum-equals-k/) | 🟡 Medium | Prefix Sum |
+| 20 | [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) | 🟡 Medium | Prefix Sum |
+| 21 | [Rotate Array](https://leetcode.com/problems/rotate-array/) | 🟡 Medium | Reversal |
+| 22 | [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) | 🟡 Medium | Hash Set |
+| 23 | [3Sum](https://leetcode.com/problems/3sum/) | 🟡 Medium | Two Pointers |
+| 24 | [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) | 🟡 Medium | Binary Search |
+| 25 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary Search |
+| 26 | [Maximum Vowels in Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium | Sliding Window (Fixed) |
+| 27 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | Sliding Window (Variable) |
+
+---
+
+## 🗂️ Patterns Covered
+
+| Pattern | Problems |
+|---------|----------|
+| Sliding Window (Fixed) | Max Consecutive Ones, Best Time to Buy and Sell Stock, Maximum Vowels in Substring |
+| Sliding Window (Variable) | Longest Subarray of 1's After Deleting One Element |
+| Two Pointers | Move Zeros, Remove Duplicates, Container With Most Water, Sort Colors, 3Sum |
+| Prefix Sum | Subarray Sum Equals K, Product of Array Except Self, Find Pivot Index |
+| Kadane's Algorithm | Maximum Subarray, Maximum Product Subarray |
+| Binary Search | Search in Rotated Array, Find Minimum in Rotated Array |
+| Hash Map / Hash Set | Two Sum, Contains Duplicate, Longest Consecutive Sequence |
+| Sorting | Third Maximum Number, Find All Disappeared Numbers, Squares of Sorted Array |
+| Math / Greedy | Missing Number, Majority Element, Best Time to Buy and Sell Stock II |
+| Linked List | Reverse Linked List |
+
+---
+
+## 🚀 Goals
+- [ ] Complete all Easy array problems
+- [ ] Complete all Medium array problems  
+- [ ] Start String problems
+- [ ] Start Tree problems
