@@ -8,7 +8,7 @@ Solved in **C** — organized by topic and difficulty.
 
 | # | Problem | Difficulty | Pattern |
 |---|---------|------------|---------|
-| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash Map |
+| 1 | [Two Sum](https://leetcode.com/problems/two-sum/) | 🟢 Easy | Hash MaP |
 | 2 | [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) | 🟢 Easy | Hash Set |
 | 3 | [Missing Number](https://leetcode.com/problems/missing-number/) | 🟢 Easy | Math |
 | 4 | [Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/) | 🟢 Easy | Sliding Window |
