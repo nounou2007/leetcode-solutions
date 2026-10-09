@@ -35,6 +35,11 @@ Solved in **C** — organized by topic and difficulty.
 | 25 | [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) | 🟡 Medium | Binary Search |
 | 26 | [Maximum Vowels in Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | 🟡 Medium | Sliding Window (Fixed) |
 | 27 | [Longest Subarray of 1's After Deleting One Element](https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/) | 🟡 Medium | Sliding Window (Variable) |
+| 28 | [Two Sum II - Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | 🟢 Easy | Two Pointers |
+| 29 | [Plus One](https://leetcode.com/problems/plus-one/) | 🟢 Easy | Digit Manipulation |
+| 30 | [Single Number](https://leetcode.com/problems/single-number/) | 🟢 Easy | Sorting / Bit Manipulation (XOR) |
+| 31 | [Intersection of Two Arrays II](https://leetcode.com/problems/intersection-of-two-arrays-ii/) | 🟢 Easy | Sorting + Two Pointers |
+| 32 | [Check If N and Its Double Exist](https://leetcode.com/problems/check-if-n-and-its-double-exist/) | 🟢 Easy | Sorting + Binary Search |
 
 ---
 
@@ -44,13 +49,15 @@ Solved in **C** — organized by topic and difficulty.
 |---------|----------|
 | Sliding Window (Fixed) | Max Consecutive Ones, Best Time to Buy and Sell Stock, Maximum Vowels in Substring |
 | Sliding Window (Variable) | Longest Subarray of 1's After Deleting One Element |
-| Two Pointers | Move Zeros, Remove Duplicates, Container With Most Water, Sort Colors, 3Sum |
+| Two Pointers | Move Zeros, Remove Duplicates, Container With Most Water, Sort Colors, 3Sum, Two Sum II, Intersection of Two Arrays II |
 | Prefix Sum | Subarray Sum Equals K, Product of Array Except Self, Find Pivot Index |
 | Kadane's Algorithm | Maximum Subarray, Maximum Product Subarray |
-| Binary Search | Search in Rotated Array, Find Minimum in Rotated Array |
+| Binary Search | Search in Rotated Array, Find Minimum in Rotated Array, Check If N and Its Double Exist |
 | Hash Map / Hash Set | Two Sum, Contains Duplicate, Longest Consecutive Sequence |
-| Sorting | Third Maximum Number, Find All Disappeared Numbers, Squares of Sorted Array |
+| Sorting | Third Maximum Number, Find All Disappeared Numbers, Squares of Sorted Array, Single Number, Intersection of Two Arrays II, Check If N and Its Double Exist |
 | Math / Greedy | Missing Number, Majority Element, Best Time to Buy and Sell Stock II |
+| Digit Manipulation | Plus One |
+| Bit Manipulation | Single Number (XOR) |
 | Linked List | Reverse Linked List |
 
 ---
